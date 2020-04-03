@@ -21,6 +21,4 @@ jobs:
       run: npm ci
     - name: Test
       run: npm test
-    - name: Shield Badge
-      uses: alvivi/shield-badge@v1
 
