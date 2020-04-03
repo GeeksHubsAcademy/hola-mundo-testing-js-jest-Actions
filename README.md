@@ -2,5 +2,4 @@
 hola-mundo-testing-js-jest-Actions
 
 
-![](https://github.com/GeeksHubsAcademy/hola-mundo-testing-js-jest-Actions/workflows/node-js.yml/badge.svg?branch=feature-1)
-
+![](https://github.com/GeeksHubsAcademy/hola-mundo-testing-js-jest-Actions/workflows/.github/workflows/nodejs.yml/badge.svg?branch=master)
