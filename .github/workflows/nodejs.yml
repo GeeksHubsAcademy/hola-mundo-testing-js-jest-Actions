@@ -9,7 +9,6 @@ on:
   pull_request:
     branches: 
     - develop
-    - develop_${{ name }}
 
 jobs:
   test:
