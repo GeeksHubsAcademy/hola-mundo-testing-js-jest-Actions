@@ -2,9 +2,11 @@ name: MGM_80 - Fork
 
 on:
   push:
-    branches: master
+    branches:
+    - master
   pull_request:
-    branches: *
+    branches: 
+    - all
 
 jobs:
   test:
