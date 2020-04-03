@@ -14,7 +14,6 @@ jobs:
   test:
     name: Running Unit Tests
     runs-on: ubuntu-latest
-    
     steps:
     - uses: actions/checkout@v1
     - name: Use Node.js ${{ matrix.node-version }}
@@ -22,8 +21,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: CI
-    - run: npm ci
+      run: npm ci
     - name: Test
-    - run: npm test
-      env:
-        CI: true
+      run: npm test
