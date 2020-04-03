@@ -1,11 +1,10 @@
-name: vicboma1 - Fork
+name: MGM_80 - Fork
 
 on:
   push:
     branches: master
   pull_request:
-    branches: 
-    - develop
+    branches: *
 
 jobs:
   test:
